@@ -71,7 +71,8 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ## 📷 Screenshots
 
-_Add some UI screenshots or live demo link here._
+![Screenshot 2025-06-28 130208](https://github.com/user-attachments/assets/3d76e92a-7355-48e6-9210-f6824cb2ca37)
+
 
 ## 📄 License
 
