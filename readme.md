@@ -23,17 +23,19 @@ A modern, responsive web application to manage and showcase chess tournaments �
 
 ## 📦 Project Structure
 
+```
+project/
 │
-├── index.html # Root HTML template
-├── package.json # Project metadata and dependencies
-├── tsconfig.app.json # TypeScript configuration
-├── tailwind.config.js # TailwindCSS configuration
-├── vite.config.ts # Vite build configuration
-├── .env # Environment variables (Supabase keys, etc.)
-├── .gitignore # Git ignored files
-├── postcss.config.js # PostCSS setup
-└── src/ # React source code (components, pages)
-
+├── index.html               # Root HTML template
+├── package.json             # Project metadata and dependencies
+├── tsconfig.app.json        # TypeScript configuration
+├── tailwind.config.js       # TailwindCSS configuration
+├── vite.config.ts           # Vite build configuration
+├── .env                     # Environment variables (Supabase keys, etc.)
+├── .gitignore               # Git ignored files
+├── postcss.config.js        # PostCSS setup
+└── src/                     # React source code (components, pages)
+```
 
 ## 🛠️ Installation
 
@@ -48,13 +50,33 @@ npm install
 # Start the development server
 npm run dev
 ```
-## Env File 
+
+> Make sure to configure the `.env` file with your Supabase credentials before running.
+
+## 🧪 Scripts
+
+- `npm run dev` – Start development server
+- `npm run build` – Build for production
+- `npm run preview` – Preview production build
+- `npm run lint` – Run ESLint
+
+## 🧬 Environment Variables
+
+Create a `.env` file in the root directory with the following structure:
 
 ```
 VITE_SUPABASE_URL=your_supabase_url
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
 
+## 📷 Screenshots
 
-Would you like me to save this `README.md` to the project directory as well? ​:contentReference[oaicite:0]{index=0}​
+_Add some UI screenshots or live demo link here._
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**Developed with ❤️ using React and Supabase.**
